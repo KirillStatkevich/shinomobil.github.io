@@ -5,17 +5,17 @@ table{
     font-family: sans-serif;
     text-align: center;
     border-collapse: separate;
-    border-spacing: 5px;
-    background:#000053c7 ;
     color: black ;
-    border: 16px solid  #c4bf33;
+    border: 0.5vw solid  #c4bf33;
     border-radius: 2vw;
 }
 th{
-    font-size: 1vw;
-    padding: 0.1vw;
+    font-size: 2vw;
+    padding: 1vw;
+   
 }
 td{
     background: white;
-    padding: 0.2vw;
+    padding: 0.02vw;
+    border-radius: 0.5vw
 }
