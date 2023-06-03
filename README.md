@@ -1,1 +1,0 @@
-# shinomobil.github.io
