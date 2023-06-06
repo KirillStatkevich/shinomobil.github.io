@@ -78,6 +78,7 @@ footer,btn-outline-primary{
 .span{
     color: yellow;
 }
+
 @keyframes myAnim {
 	0%,
 	100% {
@@ -105,12 +106,13 @@ footer,btn-outline-primary{
 		transform: translateX(-6px) rotate(-1.2deg);
 	}
 }
+
 @media(max-width:755px){
     .carousel-indicators{
         display: none;
     }
     .video-text>p{
-        font-size:9vw; ;
+        font-size:7vw; ;
         display:flex;
         text-align: center;
     }
@@ -146,14 +148,55 @@ footer,btn-outline-primary{
         padding: 0.02vw;
     }
 }   
-@media (min-width: 755px) and (max-width: 1200px){
+@media (min-width: 755px) and (max-width: 900px){
+    .carousel-indicators{
+        display: none;
+    }
     .video-text>p{
-        font-size:7vw; ;
+        font-size:4vw; ;
         display:flex;
         text-align: center;
     }
     .number>p{
-        font-size:7vw; ;
+        font-size:6vw; ;
+        display:flex;
+        justify-content: center; 
+    }
+    .carousel-innertext{
+        font-size: 3vw;
+    }
+    p{
+        font-size: 4vw;
+        justify-content: center;
+    }
+    h1{
+        text-align: center;
+    }
+    table{
+        font-family: sans-serif;
+        text-align: center;
+        border-collapse: separate;
+        color: black ;
+        border: 0.5vw solid  #c4bf33;
+        border-radius: 2vw;
+    }
+    th{
+        font-size: 2vw;
+        padding: 1vw;
+    }
+    td{
+        background: white;
+        padding: 0.02vw;
+    }
+}  
+@media (min-width: 900px) and (max-width: 1200px){
+    .video-text>p{
+        font-size:4vw; ;
+        display:flex;
+        text-align: center;
+    }
+    .number>p{
+        font-size:5vw; ;
         display:flex;
         justify-content: center; 
     }
